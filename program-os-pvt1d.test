@@ -1,0 +1,6 @@
+[Test]
+ExecStart=./program-os-pvt1d.sh
+Name=Program shipping OS for chibiscreen
+Description=Program the final shipping operating system
+Requires=swd,finish-tests
+Timeout=30

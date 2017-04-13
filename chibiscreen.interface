@@ -1,0 +1,5 @@
+[Interface]
+Name=Chibiscreen interface
+Description=Shows failures on a Chibiscreen
+Format=text
+ExecStart=/home/pi/code/jig-20-config-chibiscreen/bin/chibiscreen-interface.sh

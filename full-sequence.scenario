@@ -1,0 +1,5 @@
+[Scenario]
+Name=Program Everything
+Description=Program the test OS, run the tests, then program the final OS
+Tests=program-test-pvt1d, test-setup, finish-tests, program-os-pvt1d, check-version, teardown-tests
+Timeout=200

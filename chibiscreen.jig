@@ -1,0 +1,6 @@
+[Jig]
+Name=Chibiscreen Jig
+Description=Chibiscreen factory test jig
+TestFile=/boot/ltc-jig
+DefaultWorkingDirectory=/home/pi/code/jig-20-config-chibiscreen/bin
+DefaultScenario=full-sequence

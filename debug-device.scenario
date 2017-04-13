@@ -1,0 +1,9 @@
+[Scenario]
+Name=Debug Chibiscreen
+Description=Run the debugger and leave it running.
+Tests=swd, wait-forever
+
+# Don't perform a mass-erase, which SWD normally does
+Assume=mass-erase
+# Wait for one full day
+Timeout=86400

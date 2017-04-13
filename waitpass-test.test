@@ -1,0 +1,6 @@
+[Test]
+ExecStart=./waitpass-test.sh
+Name=Wait for pass string on serial
+Description=Waits for PASS to appear on serial
+Requires=program-test-pvt1d,test-setup
+Timeout=120

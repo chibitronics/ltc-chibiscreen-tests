@@ -1,0 +1,6 @@
+[Test]
+ExecStart=./program-test-pvt1d.sh
+Name=Program user OS for chibiscreen
+Description=Program the testing operating system
+Requires=swd
+Timeout=30
